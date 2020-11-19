@@ -38,13 +38,13 @@ setup(
     },
     install_requires=[
         "storm>=0.23",
-        "IPy>=0.62",
-        "PyQt5",
-        "icepap>=3.3.0",
+        "validate",
+        "IPy",
+        "pyqt5-sip",
+        "icepap",
         'configobj',
         'ldap3',
-        'PyYAML',
-
+	    'PyYAML',
     ],
     package_data={
         '': ['*.ui', '*.png', '*.svg', '*.gif', '*.xml', '*.txt', '*.sql',
